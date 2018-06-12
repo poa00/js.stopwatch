@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'steps';
+  src: url(./fonts/Steps-Mono.otf) format("opentype");
+}
+
+body {
+  background-color: #004466;
+  color: #00ffa2;
+}
+
+.main_display {
+  font-size: 17vw;
+  font-family: 'steps', monospace;
+}
+
+.button {
+  font-size: 18px;
+  width: 100%;
+}
+
+.buttons {
+  margin-top: 40px;
+}
+
+.laps_table {
+  font-size: 18px;
+  width: 100%;
+}
+
+.table_row {
+  font-size: 18px;
+  font-family: 'steps', monospace;
+}
+
+td {
+  text-align: center;
+}
